@@ -70,4 +70,4 @@ commands:
               "port": 9229
             }]
           }
-apiVersion: 1.0.0
+apiVersion: 2.0.0
