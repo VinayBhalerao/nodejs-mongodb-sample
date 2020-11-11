@@ -12,6 +12,8 @@ components:
     memoryLimit: 512Mi
   - type: chePlugin
     id: ms-vscode/node-debug2/latest
+  - type: chePlugin
+    reference: https://raw.githubusercontent.com/redhat-developer/codeready-workspaces/ca952e89690ce5348e097c7beb7eb0ee646180ad/dependencies/che-plugin-registry/v3/plugins/redhat/vscode-openshift-connector/0.1.5/meta.yaml
   - type: dockerimage
     alias: nodejs
     image: >-
